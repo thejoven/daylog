@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Analytics } from '@vercel/analytics/react'
 import { AppProvider, useApp } from './contexts/AppContext'
 import LanguageSelection from './components/Setup/LanguageSelection'
 import ModeSelection from './components/Setup/ModeSelection'
@@ -63,6 +64,7 @@ function App() {
   return (
     <AppProvider>
       <AppContent />
+      <Analytics />
     </AppProvider>
   )
 }
