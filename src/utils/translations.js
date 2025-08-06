@@ -71,6 +71,40 @@ export const translations = {
     languageSetting: '语言设置',
     changeLanguage: '更改语言',
     
+    // 法则说明
+    whyRecord: '为什么要记录情绪？',
+    recordingBenefits: '情绪记录的价值',
+    benefitsList: {
+      awareness: '提高情绪自我觉察能力',
+      patterns: '识别情绪模式和触发因素',
+      control: '培养情绪管理和自控能力',
+      growth: '促进个人成长和心理健康'
+    },
+    recordExamples: '记录示例',
+    exampleTitle: '一些记录例子：',
+    examples: {
+      workStress: {
+        situation: '工作压力',
+        emotion: '焦虑 (强度: 7)',
+        trigger: '临近项目截止日期，任务繁重',
+        reflection: '意识到这只是暂时的压力，可以通过合理规划来缓解'
+      },
+      socialJoy: {
+        situation: '社交愉悦',
+        emotion: '快乐 (强度: 8)',
+        trigger: '与朋友聚餐，分享近况',
+        reflection: '良好的社交关系对情绪健康很重要'
+      },
+      trafficAnger: {
+        situation: '交通堵塞',
+        emotion: '愤怒 (强度: 6)',
+        trigger: '上班路上堵车，担心迟到',
+        reflection: '交通状况无法控制，但可以调整出行时间和心态'
+      }
+    },
+    festingerPrinciple: '菲斯汀格法则核心原理',
+    principleExplanation: '通过记录和反思，我们能够：\n• 清楚区分哪些是无法控制的事件(10%)\n• 学会管理自己的情绪反应(90%)\n• 逐步提升生活质量和幸福感',
+    
     // 空状态
     noRecords: '还没有情绪记录',
     noRecordsToday: '今天还没有记录',
@@ -157,6 +191,40 @@ export const translations = {
     settingsTitle: 'Settings',
     languageSetting: 'Language Settings',
     changeLanguage: 'Change Language',
+    
+    // Law explanation
+    whyRecord: 'Why Record Emotions?',
+    recordingBenefits: 'Value of Emotion Recording',
+    benefitsList: {
+      awareness: 'Improve emotional self-awareness',
+      patterns: 'Identify emotional patterns and triggers',
+      control: 'Develop emotional management and self-control',
+      growth: 'Promote personal growth and mental health'
+    },
+    recordExamples: 'Recording Examples',
+    exampleTitle: 'Some recording examples:',
+    examples: {
+      workStress: {
+        situation: 'Work Stress',
+        emotion: 'Anxious (Intensity: 7)',
+        trigger: 'Approaching project deadline with heavy workload',
+        reflection: 'Realized this is temporary stress that can be relieved through proper planning'
+      },
+      socialJoy: {
+        situation: 'Social Joy',
+        emotion: 'Happy (Intensity: 8)',
+        trigger: 'Dining with friends and sharing updates',
+        reflection: 'Good social relationships are important for emotional health'
+      },
+      trafficAnger: {
+        situation: 'Traffic Jam',
+        emotion: 'Angry (Intensity: 6)',
+        trigger: 'Traffic jam on the way to work, worried about being late',
+        reflection: 'Traffic conditions are uncontrollable, but can adjust departure time and mindset'
+      }
+    },
+    festingerPrinciple: 'Core Principle of Festinger\'s Law',
+    principleExplanation: 'Through recording and reflection, we can:\n• Clearly distinguish uncontrollable events (10%)\n• Learn to manage our emotional reactions (90%)\n• Gradually improve quality of life and happiness',
     
     // Empty states
     noRecords: 'No emotion records yet',
