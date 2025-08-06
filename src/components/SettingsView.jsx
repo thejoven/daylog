@@ -19,10 +19,10 @@ const SettingsView = () => {
   }
 
   return (
-    <div className="space-y-6 pb-20 pt-4">
+    <div className="space-y-8 pb-24">
       <div className="text-center">
-        <h1 className="text-2xl font-bold text-gray-900 mb-2">{t('settingsTitle')}</h1>
-        <p className="text-gray-600">{t('appTitle')}</p>
+        <h1 className="text-3xl font-bold text-slate-800 mb-3">{t('settingsTitle')}</h1>
+        <p className="text-slate-600 text-lg">{t('appTitle')}</p>
       </div>
 
       {/* 语言设置 */}
@@ -63,7 +63,7 @@ const SettingsView = () => {
       </Card>
 
       {/* 应用信息 */}
-      <Card className="bg-gradient-to-r from-blue-50 to-purple-50 border-blue-200">
+      <Card className="bg-blue-50 border-blue-200">
         <CardHeader>
           <CardTitle className="flex items-center gap-2">
             <SettingsIcon className="w-5 h-5" />
@@ -90,7 +90,7 @@ const SettingsView = () => {
       </Card>
 
       {/* 为什么要记录情绪 */}
-      <Card className="bg-gradient-to-r from-green-50 to-emerald-50 border-green-200">
+      <Card className="bg-green-50 border-green-200">
         <CardHeader>
           <CardTitle className="flex items-center gap-2">
             <BookOpen className="w-5 h-5 text-green-600" />
@@ -126,7 +126,7 @@ const SettingsView = () => {
       </Card>
 
       {/* 记录例子 */}
-      <Card className="bg-gradient-to-r from-orange-50 to-amber-50 border-orange-200">
+      <Card className="bg-orange-50 border-orange-200">
         <CardHeader>
           <CardTitle className="flex items-center gap-2">
             <Clock className="w-5 h-5 text-orange-600" />
@@ -178,7 +178,7 @@ const SettingsView = () => {
       </Card>
 
       {/* 菲斯汀格法则核心原理 */}
-      <Card className="bg-gradient-to-r from-purple-50 to-pink-50 border-purple-200">
+      <Card className="bg-purple-50 border-purple-200">
         <CardHeader>
           <CardTitle className="flex items-center gap-2">
             <Lightbulb className="w-5 h-5 text-purple-600" />

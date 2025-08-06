@@ -38,7 +38,7 @@ const DynamicIslandNavigation = ({ currentTab, onTabChange }) => {
 
   return (
     <div className="fixed bottom-6 left-1/2 transform -translate-x-1/2 z-50">
-      <div className="bg-black/80 backdrop-blur-xl rounded-full px-6 py-3 shadow-2xl border border-white/10">
+      <div className="bg-black/80 backdrop-blur-xl rounded-full px-4 py-2 shadow-2xl border border-white/10">
         <div className="flex items-center gap-2">
           {navItems.map((item, index) => {
             const Icon = item.icon
@@ -48,7 +48,7 @@ const DynamicIslandNavigation = ({ currentTab, onTabChange }) => {
                 <Button
                   variant="ghost"
                   onClick={() => onTabChange(item.id)}
-                  className={`relative flex flex-col items-center justify-center h-12 px-4 py-2 rounded-full transition-all duration-300 ${
+                  className={`relative flex flex-col items-center justify-center h-10 px-3 py-1 rounded-full transition-all duration-300 ${
                     item.isActive 
                       ? 'bg-white text-black hover:bg-white/90' 
                       : 'text-white/70 hover:text-white hover:bg-white/10'
@@ -58,14 +58,14 @@ const DynamicIslandNavigation = ({ currentTab, onTabChange }) => {
                       : ''
                   }`}
                 >
-                  <Icon className={`w-5 h-5 ${
+                  <Icon className={`w-4 h-4 ${
                     item.isActive ? 'text-black' : ''
                   } ${
                     item.highlight && !item.isActive ? 'text-orange-300' : ''
                   }`} />
                   
                   {item.isActive && (
-                    <span className="text-xs font-medium mt-1 text-black">
+                    <span className="text-xs font-medium leading-none mt-0.5 text-black">
                       {item.label}
                     </span>
                   )}

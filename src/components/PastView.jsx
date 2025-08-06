@@ -47,14 +47,14 @@ const PastView = () => {
   }
 
   return (
-    <div className="space-y-6 pb-20 pt-4">
+    <div className="space-y-8 pb-24">
       <div className="text-center">
-        <h1 className="text-2xl font-bold text-gray-900 mb-2">{t('pastRecords')}</h1>
-        <p className="text-gray-600">{t('recentRecords')}</p>
+        <h1 className="text-3xl font-bold text-slate-800 mb-3">{t('pastRecords')}</h1>
+        <p className="text-slate-600 text-lg">{t('recentRecords')}</p>
       </div>
 
       {Object.keys(groupedRecords).length === 0 ? (
-        <Card className="bg-gray-50">
+        <Card className="bg-slate-50 border-slate-200">
           <CardContent className="pt-6">
             <div className="text-center">
               <div className="text-4xl mb-3">📚</div>

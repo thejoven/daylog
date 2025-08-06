@@ -43,9 +43,9 @@ const AppContent = () => {
 
   // 主应用界面
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-slate-50">
       {/* 主内容区域 */}
-      <main className="px-4 sm:px-6 lg:px-8 max-w-md mx-auto">
+      <main className="px-6 max-w-md mx-auto pt-6">
         {currentTab === 'today' && <EnhancedTodayView />}
         {currentTab === 'past' && <PastView />}
         {currentTab === 'settings' && <SettingsView />}

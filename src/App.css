@@ -249,12 +249,10 @@
   transition: transform 0.1s ease;
 }
 
-/* 渐变文字 */
-.gradient-text {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+/* 强调文字 */
+.accent-text {
+  color: theme('colors.slate.800');
+  font-weight: 600;
 }
 
 /* 卡片悬浮效果 */
